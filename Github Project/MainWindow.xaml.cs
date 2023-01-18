@@ -24,7 +24,34 @@ namespace Github_Project
         {
             InitializeComponent();
 
-              //  yoU rock
+            //  create an array "ints
+            int[] grade = new int[5];
+
+
+            // creat an array "intialized"
+            string[] name = { "Tyler", "Will", "John", "Ty", "kira" };
+            int sum = 0;
+            // intialize a variable; condition; incrementer
+            // true / false
+            int numofElements = name.Length;
+            //comparison Operator
+            // start, end, change
+            for(int i = 0; i < numofElements; i++)
+            {
+
+                Console.WriteLine($"{name[i]} - " );
+                // int.Parse(string to convert)
+                string usersInput = Console.ReadLine();
+                grade[i] = int.Parse(usersInput);
+            }
+            for (int i = 0; i < name.Length; i++)
+            {
+
+                Console.WriteLine($"{name[i]} - {grade[i]}");
+                sum = sum + grade[i];
+            }
+
+
 
 
         }
