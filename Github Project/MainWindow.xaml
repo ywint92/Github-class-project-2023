@@ -8,11 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     <!--This is a comment--> 
     <Grid Background="#FF559496" HorizontalAlignment="Center" Width="800" Margin="0,0,0,-6">
-        <Button Content="Add" HorizontalAlignment="Left" Margin="192,84,0,0" VerticalAlignment="Top" Height="30" Width="129"/>
+        <Button x:Name="buttonAdd" Content="Add" HorizontalAlignment="Left" Margin="192,84,0,0" VerticalAlignment="Top" Height="30" Width="129"/>
         <Button Content="Subtract" HorizontalAlignment="Left" Margin="368,84,0,0" VerticalAlignment="Top" Height="30" Width="142"/>
         <TextBox x:Name="txtAddSubtractnum1" HorizontalAlignment="Left" Margin="192,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
         <TextBox HorizontalAlignment="Left" Margin="323,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
-        <TextBox HorizontalAlignment="Left" Margin="443,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79"/>
+        <TextBox x:Name="txtsubtractnum3" HorizontalAlignment="Left" Margin="443,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="192,253,0,0" VerticalAlignment="Top" Height="31" Width="129"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="380,253,0,0" VerticalAlignment="Top" Height="31" Width="142"/>
         <TextBox HorizontalAlignment="Left" Margin="198,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="72"/>
