@@ -26,8 +26,12 @@ namespace Github_Project
             // This is a comment
             // I like your shirt
             // I like yours too
+            string addAddsubtract1 = txtAddSubtractnum1.Text;
         }
 
-        
+        private void buttonAdd_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
