@@ -23,6 +23,9 @@ namespace Github_Project
         public MainWindow()
         {
             InitializeComponent();
+            // This is a comment
         }
+
+        
     }
 }
