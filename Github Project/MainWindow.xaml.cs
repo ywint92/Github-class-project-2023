@@ -29,11 +29,29 @@ namespace Github_Project
             
         }
 
+        // string = words
+        // int = whole numbers
+        // double = decimal numbers ( floating point )
+        // bool = ( true or false )
+
         private void buttonAdd_Click(object sender, RoutedEventArgs e)
         {
-            string addAddsubtract1 = txtAddSubtractnum1.Text;
+            string addAddsubtract1 = txtAddSubtractnum1.Text; // "5"
             string addAddsubtract2 = txtAddsubtractnum2.Text;
-            MessageBox.Show(addAddsubtract1);
+            // Display AddAddsubtract 1 AND AddAddSubtract 2 to your 3rd txt box
+            // Add 2 numbers and display the result
+            // Convert the string to a number
+            // make a place to save a number, and then convert the number
+
+            // Parse is how you convert a string to a number
+            int num1 = int.Parse(addAddsubtract1); // 5
+            int num2 = int.Parse(addAddsubtract2); // 4
+            int addplus = num1 + num2;
+            lblAddSubtract.Content = "+";
+
+
+
+            txtsubtractnum3.Text = addplus.ToString();
         }
     }
 }
