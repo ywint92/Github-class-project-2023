@@ -11,7 +11,7 @@
         <Button x:Name="buttonAdd" Content="Add" HorizontalAlignment="Left" Margin="192,84,0,0" VerticalAlignment="Top" Height="30" Width="129" Click="buttonAdd_Click"/>
         <Button Content="Subtract" HorizontalAlignment="Left" Margin="368,84,0,0" VerticalAlignment="Top" Height="30" Width="142"/>
         <TextBox x:Name="txtAddSubtractnum1" HorizontalAlignment="Left" Margin="192,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
-        <TextBox HorizontalAlignment="Left" Margin="323,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
+        <TextBox x:Name="txtAddsubtractnum2" HorizontalAlignment="Left" Margin="323,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
         <TextBox x:Name="txtsubtractnum3" HorizontalAlignment="Left" Margin="443,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="192,253,0,0" VerticalAlignment="Top" Height="31" Width="129"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="380,253,0,0" VerticalAlignment="Top" Height="31" Width="142"/>
@@ -33,5 +33,7 @@
         <Button Content="Average of Results" HorizontalAlignment="Left" Margin="378,336,0,0" VerticalAlignment="Top" Width="144" Height="36"/>
         <Label Content="" HorizontalAlignment="Left" Margin="256,319,0,0" VerticalAlignment="Top"/>
         <Label Content="Average of Results" HorizontalAlignment="Left" Margin="256,297,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Label x:Name="lblAddSubtract" Content="+/-" HorizontalAlignment="Left" Margin="276,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.053,0.117"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="405,50,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
