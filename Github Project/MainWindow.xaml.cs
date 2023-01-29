@@ -49,9 +49,23 @@ namespace Github_Project
             int addplus = num1 + num2;
             lblAddSubtract.Content = "+";
 
+            string multiplyDivide1 = txtMultiplydividenum1.Text;
+            string multiplyDivide2 = txtMultiplydividenum2.Text;
+            // Display multiplyDivivde 1 AND multiDivide 2 to your 3rd txt box
+            // Multiply 2 numbers and display the result
+            // Convert the string to a number
+            // make a place to save a number, and then convert the number
+
+            //Parse is how you convert a string to a number
+            int num1 = int.Parse(multiplyDivide1); // 5
+            int num2 = int.Parse(multiplyDivide2); // 4
+            int multidivide = num1 * num2;
+            lblMultiplyDivide.Content = "*";
 
 
             txtsubtractnum3.Text = addplus.ToString();
+            txtmultiplynum3.Text = multidivide.ToString();
+
         }
     }
 }
