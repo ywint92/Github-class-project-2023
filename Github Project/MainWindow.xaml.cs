@@ -91,7 +91,7 @@ namespace Github_Project
             int multiplyadd = num1 * num2;
             lblmultiplyAdd.Content = "*";
 
-
+            txtMultiplydivide3.Text = addmultiply.ToString();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -109,6 +109,7 @@ namespace Github_Project
             int divideAdd = num1 / num2;
             lbldivideAdd.Content = "/";
 
-        }
+            txtdivide3.Text = Adddivide.ToString();
+        }  
     }
 }
