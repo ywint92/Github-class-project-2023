@@ -9,18 +9,18 @@
     <!--This is a comment-->
     <Grid Background="#FF559496" HorizontalAlignment="Center" Width="800" Margin="0,0,0,-6">
         <Button x:Name="buttonAdd1" Content="Add" HorizontalAlignment="Left" Margin="192,84,0,0" VerticalAlignment="Top" Height="30" Width="129" Click="buttonAdd_Click"/>
-        <Button x:Name="buttonAdd2" Content="Subtract" HorizontalAlignment="Left" Margin="368,84,0,0" VerticalAlignment="Top" Height="30" Width="142"/>
+        <Button x:Name="buttonAdd2" Content="Subtract" HorizontalAlignment="Left" Margin="368,84,0,0" VerticalAlignment="Top" Height="30" Width="142" Click="buttonAdd2_Click"/>
         <TextBox x:Name="txtAddSubtractnum1" HorizontalAlignment="Left" Margin="192,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
         <TextBox x:Name="txtAddsubtractnum2" HorizontalAlignment="Left" Margin="323,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
         <TextBox x:Name="txtsubtractnum3" HorizontalAlignment="Left" Margin="443,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79"/>
-        <Button x:Name="buttonMultiply1" Content="Button" HorizontalAlignment="Left" Margin="175,0,0,0" VerticalAlignment="Center" Height="31" Width="129"/>
-        <Button x:Name="buttondivide2" Content="Button" HorizontalAlignment="Left" Margin="362,0,0,0" VerticalAlignment="Center" Height="31" Width="142"/>
-        <TextBox x:Name="txtMultiplydividenum1" HorizontalAlignment="Left" Margin="198,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="72"/>
-        <TextBox x:Name="txtMultiplydivide2" HorizontalAlignment="Left" Margin="323,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
-        <TextBox x:Name="txtMultiplydivide3" HorizontalAlignment="Left" Margin="444,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
+        <Button x:Name="buttonmultiply1" Content="Multiply" HorizontalAlignment="Left" Margin="175,0,0,0" VerticalAlignment="Center" Height="31" Width="129" Click="buttonSubtract1_Click"/>
+        <Button x:Name="buttondivide1" Content="Divide" HorizontalAlignment="Left" Margin="362,0,0,0" VerticalAlignment="Center" Height="31" Width="142" Click="buttonSubtract2_Click"/>
+        <TextBox x:Name="txtMultiplydivide1" HorizontalAlignment="Left" Margin="198,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="72"/>
+        <TextBox x:Name="txtMutilplydivide2" HorizontalAlignment="Left" Margin="323,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
+        <TextBox x:Name="txtMultiplydivide3" HorizontalAlignment="Left" Margin="444,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78" TextChanged="txtsubtractnum4_TextChanged"/>
         <Label Content="Add or Subtract" HorizontalAlignment="Left" Margin="276,10,0,0" VerticalAlignment="Top" Height="30" Width="140" FontSize="16" FontWeight="Bold"/>
-        <Label Content="Multiply Divide" HorizontalAlignment="Left" Margin="276,119,0,0" VerticalAlignment="Top" Height="45" Width="152" FontSize="16" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Margin="176,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.5,0.5" Height="39">
+        <Label Content="Multiply or Divide" HorizontalAlignment="Left" Margin="276,119,0,0" VerticalAlignment="Top" Height="45" Width="152" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="Average" HorizontalAlignment="Left" Margin="176,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.5,0.5" Height="39">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -30,12 +30,12 @@
                 </TransformGroup>
             </TextBox.RenderTransform>
         </TextBox>
-        <Button Content="Average of Results" HorizontalAlignment="Left" Margin="366,265,0,0" VerticalAlignment="Top" Width="144" Height="36"/>
+        <Button Content="Average of Results" HorizontalAlignment="Left" Margin="366,265,0,0" VerticalAlignment="Top" Width="144" Height="36" Click="Button_Click"/>
         <Label Content="" HorizontalAlignment="Left" Margin="256,319,0,0" VerticalAlignment="Top"/>
-        <Label Content="Average of Results" HorizontalAlignment="Left" Margin="249,254,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Label Content="Average of Results" HorizontalAlignment="Left" Margin="244,231,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
         <Label x:Name="lblAddSubtract" Content="+/-" HorizontalAlignment="Left" Margin="276,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.053,0.117"/>
         <Label Content="=" HorizontalAlignment="Left" Margin="405,50,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblMultiply" Content="* || /" HorizontalAlignment="Left" Margin="276,160,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblDivide" Content="=" HorizontalAlignment="Left" Margin="414,160,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Multiply" Content="* || /" HorizontalAlignment="Left" Margin="277,161,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="divide" Content="=" HorizontalAlignment="Left" Margin="407,157,0,0" VerticalAlignment="Top" Height="30" Width="36"/>
     </Grid>
 </Window>

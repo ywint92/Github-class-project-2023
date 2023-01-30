@@ -49,22 +49,65 @@ namespace Github_Project
             int addplus = num1 + num2;
             lblAddSubtract.Content = "+";
 
-            string multiplyDivide1 = txtMultiplydividenum1.Text;
-            string multiplyDivide2 = txtMultiplydividenum2.Text;
-            // Display multiplyDivivde 1 AND multiDivide 2 to your 3rd txt box
-            // Multiply 2 numbers and display the result
-            // Convert the string to a number
+
+         txtsubtractnum3.Text = addplus.ToString();
+            
+
+        }
+
+        private void buttonAdd2_Click(object sender, RoutedEventArgs e)
+        {
+
+            string subtractAdd1 = txtsubtractnum1.Text;
+            string subtractAdd2 = txtsubtractnum2.Text;
+            //Display SubtractAddAdd 1 AND SubtractAddAdd 2 to your 3rd txt box
+            // Subtract 2 numbers and display the result
+            // Convert the string to number
             // make a place to save a number, and then convert the number
 
             //Parse is how you convert a string to a number
-            int num1 = int.Parse(multiplyDivide1); // 5
-            int num2 = int.Parse(multiplyDivide2); // 4
-            int multidivide = num1 * num2;
-            lblMultiplyDivide.Content = "*";
+            int num2 = int.Parse(subtractAdd1); // 1
+            int num1 = int.Parse(subtractAdd2); // 2
+            int addsubtract = num1 - num2;
+            lblsubtractAdd.Content = "-";
+
+            txtsubtractnum3.Text = addsubtract.ToString();
+                                                
+        }
+
+        private void buttonSubtract1_Click(object sender, RoutedEventArgs e)
+        {
+
+            string multiplyAdd1 = txtMultiplydivide1.Text;
+            string multiplyAdd2 = txtMutilplydivide2.Text;
+            //Display MultiplyAddAdd 1 AND  MultiplyAddAdd 2 to your 3rd txt box 
+            // Multiply 2 numbers and display the result
+            // Convert the string to number
+            // make a place to save a number, and then convert the number
+
+            //Parse is how you convert a string to a number
+            int num1 = int.Parse(multiplyAdd1); // 5
+            int num2 = int.Parse(multiplyAdd2); // 4
+            int multiplyadd = num1 * num2;
+            lblmultiplyAdd.Content = "*";
 
 
-            txtsubtractnum3.Text = addplus.ToString();
-            txtmultiplynum3.Text = multidivide.ToString();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string divideAdd1 = txtMultiplydivide1.Text;
+            string divideAdd2 = txtMutilplydivide2.Text;
+            // Display DivideAddAdd 1 AND DivideAddAdd 2 to your 3rd txt box
+            // Divide 2 numbers and display the results 
+            // Convert the string to number
+            //  make a place to save a number, and then convert the number
+
+            // Parse is how you convert a string to a number
+            int num1 = int.Parse(divideAdd1); // 1
+            int num2 = int.Parse(divideAdd2); // 2
+            int divideAdd = num1 / num2;
+            lbldivideAdd.Content = "/";
 
         }
     }
