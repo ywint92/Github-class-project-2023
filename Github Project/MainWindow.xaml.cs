@@ -110,6 +110,28 @@ namespace Github_Project
             lbldivideAdd.Content = "/";
 
             txtdivide3.Text = Adddivide.ToString();
-        }  
+        }
+
+        private void Average_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string AverageofresultsAdd1 = txtaverageofresults1.Text;
+            string AverageofresultsAdd2 = txtaverageofresults2.Text;
+            // Display Averageofresults 1 AND Averageofresults 2 to your 2nd button
+            // Divede 2 numbers and display the results
+            // convert the string to number
+            // make a place to save a number, and then convert the number
+
+            // Parse is how you convert a string to a number
+            int num1 = int.Parse(AverageofresultsAdd1);
+            int num2 = int.Parse(AverageofresultsAdd2);
+            int Averageofresult = num1 = num2;
+            lblaverageofresults.Content = "=";
+
+            txtaverageofresults1.Text Addavergeofresults.ToString();
+
+
+            
+
+        }
     }
 }

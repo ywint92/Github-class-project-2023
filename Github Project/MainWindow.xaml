@@ -20,7 +20,7 @@
         <TextBox x:Name="txtMultiplydivide3" HorizontalAlignment="Left" Margin="444,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78" TextChanged="txtsubtractnum4_TextChanged"/>
         <Label Content="Add or Subtract" HorizontalAlignment="Left" Margin="276,10,0,0" VerticalAlignment="Top" Height="30" Width="140" FontSize="16" FontWeight="Bold"/>
         <Label Content="Multiply or Divide" HorizontalAlignment="Left" Margin="276,119,0,0" VerticalAlignment="Top" Height="45" Width="152" FontSize="16" FontWeight="Bold"/>
-        <TextBox x:Name="Average" HorizontalAlignment="Left" Margin="176,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.5,0.5" Height="39">
+        <TextBox x:Name="AverageofresultsAdd1" HorizontalAlignment="Left" Margin="176,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.5,0.5" Height="39" TextChanged="Average_TextChanged">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -30,7 +30,7 @@
                 </TransformGroup>
             </TextBox.RenderTransform>
         </TextBox>
-        <Button Content="Average of Results" HorizontalAlignment="Left" Margin="366,265,0,0" VerticalAlignment="Top" Width="144" Height="36" Click="Button_Click"/>
+        <Button x:Name="txtaverageofresults1" Content="Average of Results" HorizontalAlignment="Left" Margin="366,265,0,0" VerticalAlignment="Top" Width="144" Height="36" Click="Button_Click"/>
         <Label Content="" HorizontalAlignment="Left" Margin="256,319,0,0" VerticalAlignment="Top"/>
         <Label Content="Average of Results" HorizontalAlignment="Left" Margin="244,231,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
         <Label x:Name="lblAddSubtract" Content="+/-" HorizontalAlignment="Left" Margin="276,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.053,0.117"/>
